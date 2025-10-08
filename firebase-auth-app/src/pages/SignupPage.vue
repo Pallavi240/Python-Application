@@ -27,7 +27,7 @@ const email = ref('')
 const password = ref('')
 const message = ref('')
 
-const backendURL = 'http://127.0.0.1:5000' // change to your Flask API
+const backendURL = import.meta.env.VITE_API_URL // change to your Flask API
 
 const registerUser = async () => {
   try {
