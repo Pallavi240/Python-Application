@@ -27,7 +27,7 @@ const email = ref('')
 const password = ref('')
 const message = ref('')
 
-const backendURL = import.meta.env.VITE_API_URL // change to your Flask API
+const backendURL = https://your-backend.onrender.com // change to your Flask API
 
 const registerUser = async () => {
   try {
